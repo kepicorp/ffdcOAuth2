@@ -1,0 +1,13 @@
+{
+  "name": "OAuth-validator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "dependencies": {
+    "client-oauth2": "^4.2.4",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1"
+  }
+}
